@@ -5,7 +5,7 @@
     <p> Current Location: <input type="text" v-model="currentLocation"></p>
     <p> Destination: <input type="text" v-model="destination"></p>
     <button v-on:click="getDirections()"> Find my Route </button>
-    {{googlemaps}}
+    <p>{{googlemaps}}</p>
   </div>
 </template>
 
