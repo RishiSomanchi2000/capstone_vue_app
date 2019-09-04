@@ -1,11 +1,21 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <body id="body" class="body-wrapper boxed-menu" >
+      <div id="preloader" class="smooth-loader-wrapper">
+      <div class="smooth-loader">
+          <div class="loader1">
+              <div class="loader-target">
+                  <div class="loader-target-main"></div>
+                  <div class="loader-target-inner"></div>
+              </div>
+          </div>
+      </div>
   </div>
+      <router-view/>
+    </body>
+  </div>
+
+
 </template>
 
 <style>
